@@ -3,47 +3,59 @@
     line-height: 50px;
     padding-left: 2%;
     color: rgb(15, 20, 25);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .navegacao a:hover {
-    background-color: rgba(249, 24, 128, 0.1);
+    background-color: #FFBAD8;
     border-radius: 20px;
+    font-style: italic;
 }
 
 .publico a {
     color: rgb(83, 100, 113);
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .publico span {
     color: rgb(15, 20, 25);
-    font-family: bold;
+    font-weight: bold;
 }
 
 .publico a:hover {
-    text-decoration: underline;
+    background-color: #FFBAD8;
+    font-style: italic;
 }
 
 .reacoes a {
     color: rgb(83, 100, 113);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .reply:hover {
-    background-color: rgba(249, 24, 128, 0.1);
+    background-color: #FFBAD8;
+    font-style: italic;
     color: #000000;
 }
 
 .retweet:hover {
-    background-color: rgba(249, 24, 128, 0.1);
+    background-color: #FFBAD8;
+    font-style: italic;
     color: #000000;
 }
 
 .like:hover {
-    background-color: rgba(249, 24, 128, 0.1);
+    background-color: #FFBAD8;
+    font-style: italic;
     color: #000000;
 }
 
 .share:hover {
-    background-color: rgba(249, 24, 128, 0.1);
+    background-color: #FFBAD8;
+    font-style: italic;
     color: #000000;
 }
 
@@ -52,22 +64,26 @@
 }
 
 .border:hover {
-    text-decoration: underline;
+    font-style: italic;
 }
 
 .user {
+    font-size: large;
     color: rgb(15, 20, 25);
 }
 
 .user-name {
+    font-size: medium;
     color: rgb(83, 100, 113);
 }
 
 .bio {
+    font-size: medium;
     color: rgb(15, 20, 25);
 }
 
 .sobre {
+    font-size: small;
     color: rgb(83, 100, 113);
 }  
 
@@ -78,11 +94,14 @@
 }
 
 .post:hover {
-    background-color: rgba(249, 24, 128, 0.1);
+    border-radius: 20px;
+    background-color: #FFBAD8;
 }
 
 button {
-    border-radius: 5px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #FFBAD8;
 }
 
 li {
@@ -93,5 +112,6 @@ p {
     font-family: bold;
 }
 
-
-
+background{
+    background-color: #FFBAD8;
+}
