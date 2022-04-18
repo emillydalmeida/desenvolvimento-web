@@ -1,0 +1,97 @@
+.navegacao a {
+    display: flex;
+    line-height: 50px;
+    padding-left: 2%;
+    color: rgb(15, 20, 25);
+}
+
+.navegacao a:hover {
+    background-color: rgba(249, 24, 128, 0.1);
+    border-radius: 20px;
+}
+
+.publico a {
+    color: rgb(83, 100, 113);
+}
+
+.publico span {
+    color: rgb(15, 20, 25);
+    font-family: bold;
+}
+
+.publico a:hover {
+    text-decoration: underline;
+}
+
+.reacoes a {
+    color: rgb(83, 100, 113);
+}
+
+.reply:hover {
+    background-color: rgba(249, 24, 128, 0.1);
+    color: #000000;
+}
+
+.retweet:hover {
+    background-color: rgba(249, 24, 128, 0.1);
+    color: #000000;
+}
+
+.like:hover {
+    background-color: rgba(249, 24, 128, 0.1);
+    color: #000000;
+}
+
+.share:hover {
+    background-color: rgba(249, 24, 128, 0.1);
+    color: #000000;
+}
+
+.border {
+    border-radius: 20px;
+}
+
+.border:hover {
+    text-decoration: underline;
+}
+
+.user {
+    color: rgb(15, 20, 25);
+}
+
+.user-name {
+    color: rgb(83, 100, 113);
+}
+
+.bio {
+    color: rgb(15, 20, 25);
+}
+
+.sobre {
+    color: rgb(83, 100, 113);
+}  
+
+.post {
+    padding-left: 2%;
+    display:grid;
+    height: 50%;
+}
+
+.post:hover {
+    background-color: rgba(249, 24, 128, 0.1);
+}
+
+button {
+    border-radius: 5px;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    font-family: bold;
+}
+
+
+
